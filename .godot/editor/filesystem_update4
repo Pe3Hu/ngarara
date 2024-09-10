@@ -1,0 +1,4 @@
+res://entities/main/main.tscn
+res://entities/main/main.gd
+res://entities/boid/boid_particles.tscn
+res://entities/boid/boid_particle.gdshader

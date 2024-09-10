@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://b8xbs060jdgew"]
+
+[ext_resource type="Script" path="res://entities/main/main.gd" id="1_qjct2"]
+[ext_resource type="PackedScene" uid="uid://ro4x40gaxuex" path="res://entities/boid/boid_particles.tscn" id="2_35wr5"]
+[ext_resource type="PackedScene" uid="uid://dsbs6nvtkvouu" path="res://entities/grid/Grid.tscn" id="3_gnc8u"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_qjct2")
+boid_color = Color(0, 0.615686, 0.941176, 1)
+boid_color_mode = 2
+boid_max_friends = 25
+bin_grid = true
+
+[node name="BoidParticles" parent="." instance=ExtResource("2_35wr5")]
+unique_name_in_owner = true
+
+[node name="Grid" parent="." instance=ExtResource("3_gnc8u")]
+unique_name_in_owner = true

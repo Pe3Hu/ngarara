@@ -1,0 +1,21 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1725987265
+icon.svg::CompressedTexture2D::8445013882309816162::1711834435::1725891529::1::::<><>::
+::res://compute shaders/::1725991423
+bin_prefix_sum.glsl::RDShaderFile::5104516397815326663::1711834435::1725987265::1::::<><>::
+bin_reindex.glsl::RDShaderFile::2011320160977139236::1711834435::1725987265::1::::<><>::
+bin_sum.glsl::RDShaderFile::921589044064215007::1711834435::1725987265::1::::<><>::
+boid_simulation.glsl::RDShaderFile::2188548696302057204::1725991527::1725991529::1::::<><>::
+shared_data.glsl::RDShaderFile::6193486655677998089::1725988156::1725988159::1::::<><>::
+::res://entities/::1725981085
+::res://entities/boid/::1725991440
+boid.png::CompressedTexture2D::5932905014153441458::1711834435::1725981082::1::::<><>::
+boid_particle.gdshader::Shader::-1::1725991440::0::1::::<><>::
+boid_particles.tscn::PackedScene::1223915058524231847::1725991440::0::1::::<><>::res://entities/boid/boid_particle.gdshader<>uid://cqr7cxcfwdkhe::::res://entities/boid/boid.png
+role_map.png::CompressedTexture2D::6280386973414867577::1725990951::1725991049::1::::<><>::
+::res://entities/grid/::1725981084
+grid.gd::GDScript::-1::1711834435::0::1::::<>Node2D<>::
+Grid.tscn::PackedScene::8425874595920717276::1725981084::0::1::::<><>::res://entities/grid/grid.gd
+::res://entities/main/::1725991440
+main.gd::GDScript::-1::1725990991::0::1::::<>Node2D<>::
+main.tscn::PackedScene::4750227435495327294::1725991440::0::1::::<><>::res://entities/main/main.gd<>uid://ro4x40gaxuex::::res://entities/boid/boid_particles.tscn<>uid://dsbs6nvtkvouu::::res://entities/grid/Grid.tscn
